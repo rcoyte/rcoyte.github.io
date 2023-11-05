@@ -5,28 +5,34 @@ nav:
   tooltip: About our team
 ---
 
-# <i class="fas fa-users"></i>Team
+---
+title: Team
+nav:
+  order: 3
+  tooltip: About our team
+---
+
+# {% include icon.html icon="fa-solid fa-users" %}Team
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filters="tier: first" %}
-{% include list.html data="members" component="portrait" filters="tier: second" %}
-{% include list.html data="members" component="portrait" filters="tier: " %}
+{% include list.html data="members" component="portrait" filters="role: pi" %}
+{% include list.html data="members" component="portrait" filters="role: ^(?!pi$)" %}
 
-{% include section.html dark=true %}
+{% include section.html background="images/background.jpg" dark=true %}
 
-Whether you are a scientist looking to step into an emerging field with your data, an organization interested in investing in this work, or if you are simply curious and would like to stay informed about how translational science will evolve, we welcome your partnership. We work with leading scientists around the world and are funded by large national grants and institutions with new discoveries emerging every day.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
-{%
-  include link.html
-  icon="fas fa-hands-helping"
-  text="Join the Team"
-  link="join"
-  style="button"
-%}
-{:.center}
+{% include section.html %}
 
-{% comment %}
+{% capture content %}
 
+{% include figure.html image="images/photo.jpg" %}
+{% include figure.html image="images/photo.jpg" %}
+{% include figure.html image="images/photo.jpg" %}
 
+{% endcapture %}
 
+{% include grid.html style="square" content=content %}
