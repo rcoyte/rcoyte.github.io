@@ -5,25 +5,17 @@ nav:
   tooltip: About our team
 ---
 
-# {% include icon.html icon="fa-solid fa-users" %}Team
-
-
-{% include section.html %}
-
-{% include list.html data="members" component="portrait" filters="role: pi" %}
-{% include list.html data="members" component="portrait" filters="role: ^(?!pi$)" %}
-
-{% include section.html background="images/background.jpg" dark=true %}
+# <i class="fas fa-users"></i>Team
 
 {% include section.html %}
 
-#### Alumni
+{% include list.html data="members" component="portrait" filters="tier: first" %}
+{% include list.html data="members" component="portrait" filters="tier: second" %}
+{% include list.html data="members" component="portrait" filters="tier: " %}
 
-{% include list.html data="members" component="portrait" filters="status: alumni" %}
+{% include section.html dark=true %}
 
-{% capture content %}
-
-Our lab is growing and actively recruiting new students! Please see the link below for more information. 
+Whether you are a scientist looking to step into an emerging field with your data, an organization interested in investing in this work, or if you are simply curious and would like to stay informed about how translational science will evolve, we welcome your partnership. We work with leading scientists around the world and are funded by large national grants and institutions with new discoveries emerging every day.
 
 {%
   include link.html
@@ -32,11 +24,9 @@ Our lab is growing and actively recruiting new students! Please see the link bel
   link="join"
   style="button"
 %}
+{:.center}
 
-{% endcapture %}
-
-{% include grid.html style="square" content=content %}
-
+{% comment %}
 
 
 
