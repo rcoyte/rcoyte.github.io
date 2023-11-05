@@ -16,12 +16,7 @@ nav:
 {% include section.html background="images/background.jpg" dark=true %}
 
 Our lab is growing and actively recruiting new students! 
-{%
-  include button.html
-  type="lab address"
-  text="Join Our Team!"
-  link="rcoyte.github.io/join"
-%}
+{% include link.html icon="fas fa-hands-helping" text="Join the Team" link="join" style="button" %} {:.center}
 
 {% include section.html %}
 
