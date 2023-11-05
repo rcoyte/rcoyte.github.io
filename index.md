@@ -1,9 +1,9 @@
 ---
 ---
 
-# rcoyte's Website
+# RIGHT Lab
 
-An engaging 1-3 sentence description of your lab.
+welcome to the website of the RIGHT Lab at New Mexico Tech, and PI Rachel Coyte
 
 {% include section.html %}
 
