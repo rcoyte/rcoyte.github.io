@@ -1,5 +1,5 @@
 # site properties and page defaults
-title: rcoyte
+title: RIGHT Lab
 subtitle: 
 description: An engaging 1-3 sentence description of your lab.
 header: images/background.jpg
@@ -7,12 +7,12 @@ footer: images/background.jpg
 
 # site social media and other links
 links:
-  email: contact@rcoyte.com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
+  email: rachel-coyte@nmt.edu
+  orcid: 0000-0001-6369-5311
+  google-scholar: 1ypl6Q4AAAAJ&hl
   github: rcoyte
-  twitter: rcoyte
-  youtube: rcoyte
+ # twitter: rcoyte
+ # youtube: rcoyte
 
 ### jekyll settings
 
