@@ -15,8 +15,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include button.html
-  link="research"
-  text="See our publications"
+  link="blog"
+  text="See latest news"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -27,8 +27,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {%
   include feature.html
   image="images/photo.jpg"
-  link="research"
-  title="Our Research"
+  link="blog"
+  title="News"
   text=text
 %}
 
