@@ -1,6 +1,6 @@
 ---
 name: Rachel Coyte
-image: images/photo.jpg
+image: images/coyteimage.png
 role: pi
 aliases:
   - R. Coyte
