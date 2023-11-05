@@ -14,20 +14,19 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 {%
   include button.html
   type="email"
-  text="jane@smith.com"
-  link="jane@smith.com"
+  text="rachel.coyte@nmt.edu"
+  link="rachel.coyte@nmt.edu"
 %}
 {%
   include button.html
-  type="phone"
-  text="(555) 867-5309"
+  type="lab address"
+  text="MRSC XX"
   link="+1-555-867-5309"
 %}
 {%
   include button.html
-  type="address"
-  tooltip="Our location on Google Maps for easy navigation"
-  link="https://www.google.com/maps"
+  type="PI Coyte address"
+  text="MRSC XXX"
 %}
 
 {% include section.html %}
