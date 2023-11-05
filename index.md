@@ -3,7 +3,7 @@
 
 # RIGHT Lab
 
-welcome to the website of the RIGHT Lab at New Mexico Tech, and PI Rachel Coyte
+Welcome to the website of the RIGHT Lab at New Mexico Tech, and PI Rachel Coyte
 
 {% include section.html %}
 
