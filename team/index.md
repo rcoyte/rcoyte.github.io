@@ -15,6 +15,14 @@ nav:
 
 {% include section.html background="images/background.jpg" dark=true %}
 
+{% include section.html %}
+
+#### Alumni
+
+{% include list.html data="members" component="portrait" filters="status: alumni" %}
+
+{% capture content %}
+
 Our lab is growing and actively recruiting new students! Please see the link below for more information. 
 
 {%
@@ -24,5 +32,11 @@ Our lab is growing and actively recruiting new students! Please see the link bel
   link="join"
   style="button"
 %}
+
+{% endcapture %}
+
+{% include grid.html style="square" content=content %}
+
+
 
 
