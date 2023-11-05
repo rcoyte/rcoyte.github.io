@@ -15,3 +15,9 @@ nav:
 {% include section.html %}
 
 Our lab is growing and actively recruting new graduate students!
+{%
+  include button.html
+  type="lab address"
+  text="Join Us"
+  link="rcoyte.github.io/join"
+%}
