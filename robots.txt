@@ -1,1 +1,1 @@
-Sitemap: /www.rachel-coyte.github.io/sitemap.xml
+Sitemap: /mypage/sitemap.xml
