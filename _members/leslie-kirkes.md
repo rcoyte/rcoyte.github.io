@@ -1,5 +1,5 @@
 ---
-name: John Doe
+name: Leslie Kirkes
 image: images/photo.jpg
 role: phd
 group: alum
