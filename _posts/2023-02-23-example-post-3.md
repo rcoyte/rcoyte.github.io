@@ -1,7 +1,7 @@
 ---
-title: Example post 3
-author: john-doe
-tags: biology, medicine
+title: RIGHT Lab Website
+author: rachel-coyte
+tags: tests, news
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+The RIGHT Lab website is now up and running! 
