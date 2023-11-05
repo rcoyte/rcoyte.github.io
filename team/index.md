@@ -25,4 +25,4 @@ Our lab is growing and actively recruiting new students! Please see the link bel
   style="button"
 %}
 
-{% include section.html %}
+
