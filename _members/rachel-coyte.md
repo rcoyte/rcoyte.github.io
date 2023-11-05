@@ -10,4 +10,9 @@ links:
   orcid: 0000-0001-6369-5311
 ---
 
-Description Goes Here
+Rachel Coyte is the PI of the RIGHT Lab at the New Mexico Institute of Mining and Technology. 
+
+Education
+Postdoc, The Ohio State University 2021-2023
+PhD, Duke University 2016-2021
+BA, Oberlin College 2009-2013
