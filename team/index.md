@@ -17,5 +17,5 @@ nav:
 
 Our lab is growing and actively recruiting new students! 
 {% include link.html icon="fas fa-hands-helping" text="Join the Team" link="join" style="button" %} {:.center}
-
+{% include section.html %}
 
